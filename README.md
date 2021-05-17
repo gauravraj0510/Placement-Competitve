@@ -1,2 +1,3 @@
 # Placement-Competitve
-Journey of my preparation for placements and then diving into competitive programming.
+My journey of preparation for placements and then diving into competitive programming with Apni Kaksha.
+- https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
