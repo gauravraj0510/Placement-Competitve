@@ -26,10 +26,14 @@ int main()
         }
     }
 
-    int ans = 0;
-    while (idx[ans] == true)
+    int ans = -1;
+    for (int j = 1; j < N; j++)
     {
-        ans++;
+        if (idx[j] == false)
+        {
+            ans = j;
+            break;
+        }
     }
     cout << "Smallest positive no missing is: " << ans;
 
