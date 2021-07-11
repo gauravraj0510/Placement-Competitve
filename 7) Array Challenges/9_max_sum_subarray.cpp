@@ -31,24 +31,39 @@ int main()
     // }
 
     //Cumulative sum approach Time Comp = n^2
-    int cumsum[101];
-    for (int i = 1; i <= n; i++)
+    // int cumsum[101];
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     cumsum[i] = cumsum[i - 1] + arr[i - 1];
+    // }
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     int sum = 0;
+    //     for (int j = 0; j < i; j++)
+    //     {
+    //         sum = cumsum[i] - cumsum[j];
+    //         if (sum > maxSum)
+    //         {
+    //             maxSum = sum;
+    //         }
+    //     }
+    // }
+
+    //Kadane Approach Time Comp = n ; 
+    // Drawback: When all -ve nos, it gives maxSum = 0, i.e takes subarray of size 0
+    int currsum = 0;
+    for (int i = 0; i < n; i++)
     {
-        cumsum[i] = cumsum[i - 1] + arr[i - 1];
-    }
-    for (int i = 1; i <= n; i++)
-    {
-        int sum = 0;
-        for (int j = 0; j < i; j++)
+        currsum = currsum + arr[i];
+        if (currsum < 0)
         {
-            sum = cumsum[i] - cumsum[j];
-            if (sum > maxSum)
-            {
-                maxSum = sum;
-            }
+            currsum = 0;
+        }
+        if (currsum > maxSum)
+        {
+            maxSum = currsum;
         }
     }
-
     cout << "Max Sum: " << maxSum;
 
     return 0;
