@@ -1,3 +1,3 @@
-# Placement-Competitve
-My journey of preparation for placements and then diving into competitive programming with Apna College.
-- https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ
+## Key Points in CPP
+# 1. If output of string (char array) prints garbage values. Initialize array with empty array
+- Eg: char arr[200] = {}; instead of char arr[200];
