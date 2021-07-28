@@ -8,3 +8,6 @@
 >  3. Focus on understanding the sorting and similar algorithms and no need to write code individually in each prog.
 >> - Use header file `#include<algorithm>` for using inbuilt functions like sorting.
 >> - Eg: `int b[n]; sort(b, b+n);` in asc order by default.
+
+>  4. Vectors in C++
+>> - https://www.geeksforgeeks.org/vector-in-cpp-stl/
