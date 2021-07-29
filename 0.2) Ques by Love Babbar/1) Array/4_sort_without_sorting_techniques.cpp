@@ -1,3 +1,8 @@
+// Another simple  approach: count number of 0s, 1s and 2s as c0, c1, c2 respectively.
+// a[i] where i = 0 to c0-1, is 0
+// a[i] where i = c0 to c1-1, is 1
+// a[i] where i = c1 to c2-1, is 2
+
 #include <iostream>
 #include <climits>
 using namespace std;
