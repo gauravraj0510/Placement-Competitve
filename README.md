@@ -13,6 +13,6 @@
 >> - https://www.geeksforgeeks.org/vector-in-cpp-stl/
 
 >  5. Avoid using `using namespace std`. 
->> This directive has been added for compatibility purpose and can lead into multiple definitions in larger projects. It breaks the namespace principle.  
->> However, we can use it for literals (e.g. `using namespace std::chrono_literals`). 
->> If we really don't want to use the `std::` prefix, we can use `using std::cout`, `using std::endl` and so on for each function, class, etc. you want to import in the global namespace.
+>> - This directive has been added for compatibility purpose and can lead into multiple definitions in larger projects. It breaks the namespace principle.  
+>> - However, we can use it for literals (e.g. `using namespace std::chrono_literals`). 
+>> - If we really don't want to use the `std::` prefix, we can use `using std::cout`, `using std::endl` and so on for each function, class, etc. you want to import in the global namespace.
