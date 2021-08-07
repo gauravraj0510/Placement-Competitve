@@ -18,3 +18,9 @@
 >> - If we really don't want to use the `std::` prefix, we can use `using std::cout`, `using std::endl` and so on for each function, class, etc. you want to import in the global namespace.
 
 >  6. Pointers: `int *p = &val;`  assigns the memory address of `val` to pointer `p`.
+
+>  7. Set or HashSet does not contain duplicate elements. 
+>> - `unordered_set<int> s;`
+>>   `for(int i = 0;i<n;i++) s.insert(a[i]); //adding elements to set`
+>>   `s.size(); //gives size of set`
+    	   
