@@ -20,7 +20,8 @@
 >  6. Pointers: `int *p = &val;`  assigns the memory address of `val` to pointer `p`.
 
 >  7. Set or HashSet does not contain duplicate elements. 
->> - `unordered_set<int> s;`
->> - `for(int i = 0;i<n;i++) s.insert(a[i]); //adding elements to set`
+>> - `unordered_set<int> s; int a[n];`
+>> - `s.insert(a, a+n); //adding elements to set`
 >> - `s.size(); //gives size of set`
+>> - `for (auto const &i: s) cout << i << " "; //print set elements`
     	   
