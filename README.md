@@ -21,6 +21,6 @@
 
 >  7. Set or HashSet does not contain duplicate elements. 
 >> - `unordered_set<int> s;`
->>   `for(int i = 0;i<n;i++) s.insert(a[i]); //adding elements to set`
->>   `s.size(); //gives size of set`
+>> - `for(int i = 0;i<n;i++) s.insert(a[i]); //adding elements to set`
+>> - `s.size(); //gives size of set`
     	   
