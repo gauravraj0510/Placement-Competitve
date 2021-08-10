@@ -9,6 +9,7 @@
 >> - Use header file `#include<algorithm>` for using inbuilt functions like sorting.
 >> - Eg: `int b[n]; sort(b, b+n);` in asc order by default.
 >> - Alternate way `sort(b.begin(), b.end())`
+>> - Descending order `sort(b.begin(), b.end(), greater<int>())`
 
 >  4. Vectors in C++
 >> - https://www.geeksforgeeks.org/vector-in-cpp-stl/
@@ -25,4 +26,7 @@
 >> - `s.insert(a, a+n); //adding elements to set`
 >> - `s.size(); //gives size of set`
 >> - `for (auto const &i: s) cout << i << " "; //print set elements`
+
+>  8. transform function for strings, Header file required: `#include <bits/stdc++.h>`
+>> - String to Upper Case `transform(s.begin(), s.end(), s.begin(), ::toupper);`
     	   
