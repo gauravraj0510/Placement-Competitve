@@ -13,6 +13,7 @@ int main()
         cin >> arr[i];
     }
     int maxSum = INT_MIN;
+    int maxNo = INT_MIN;
     // Brute force approach Time Comp = n^3
     // for (int i = 0; i < n; i++)
     // {
@@ -49,11 +50,14 @@ int main()
     //     }
     // }
 
-    //Kadane Approach Time Comp = n ; 
-    // Drawback: When all -ve nos, it gives maxSum = 0, i.e takes subarray of size 0
+    //Kadane's Algorithm Approach Time Comp = n ;
     int currsum = 0;
     for (int i = 0; i < n; i++)
     {
+        if (arr[i] > maxNo)
+        {
+            maxNo = arr[i];
+        }
         currsum = currsum + arr[i];
         if (currsum < 0)
         {
@@ -64,7 +68,14 @@ int main()
             maxSum = currsum;
         }
     }
-    cout << "Max Sum: " << maxSum;
+    if (maxNo < 0)
+    {
+        cout << "Max Sum: " << maxNo;
+    }
+    else
+    {
+        cout << "Max Sum: " << maxSum;
+    }
 
     return 0;
 }
