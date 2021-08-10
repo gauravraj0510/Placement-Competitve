@@ -23,9 +23,9 @@
 
 >  7. Set or HashSet does not contain duplicate elements. 
 >> - `unordered_set<int> s; int a[n];`
->> - `s.insert(a, a+n); //adding elements to set`
->> - `s.size(); //gives size of set`
->> - `for (auto const &i: s) cout << i << " "; //print set elements`
+>> - Adding elements to set `s.insert(a, a+n);`
+>> - Gives size of set `s.size();`
+>> - Print set elements `for (auto const &i: s) cout << i << " ";`
 
 >  8. transform function for strings, Header file required: `#include <bits/stdc++.h>`
 >> - String to Upper Case `transform(s.begin(), s.end(), s.begin(), ::toupper);`
