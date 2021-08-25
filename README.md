@@ -27,6 +27,6 @@
 >> - Gives size of set `s.size();`
 >> - Print set elements `for (auto const &i: s) cout << i << " ";`
 
->  8. transform function for strings, Header file required: `#include <bits/stdc++.h>`
+>  8. Transform functions for strings: Header file required: `#include <bits/stdc++.h>`
 >> - String to Upper Case `transform(s.begin(), s.end(), s.begin(), ::toupper);`
     	   
