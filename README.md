@@ -31,4 +31,6 @@
 >> - String to Upper Case `transform(s.begin(), s.end(), s.begin(), ::toupper);`
 
 >  9. Input strings with whtitespaces: `getline(cin, string_name)`
+
+>  10. ASCII Codes A-Z:65-90, a-z:97-122
     	   
