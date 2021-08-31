@@ -29,4 +29,6 @@
 
 >  8. Transform functions for strings: Header file required: `#include <bits/stdc++.h>`
 >> - String to Upper Case `transform(s.begin(), s.end(), s.begin(), ::toupper);`
+
+>  9. input strings with whtitespaces: `getline(cin, string_name)`
     	   
