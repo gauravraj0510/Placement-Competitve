@@ -33,4 +33,6 @@
 >  9. Input strings with whtitespaces: `getline(cin, string_name)`
 
 >  10. ASCII Codes A-Z:65-90, a-z:97-122
+
+>  11. Subtracting 2 nos. doesn't change their GCDs. ~ Euclid Algorithm
     	   
