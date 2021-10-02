@@ -35,4 +35,7 @@
 >  10. ASCII Codes A-Z:65-90, a-z:97-122
 
 >  11. Subtracting 2 nos. doesn't change their GCDs. ~ Euclid Algorithm
+>> - Equivalent to finding modulo of 2 nos till 0 is found.
+>> - Eg: a=42, b=24
+>> - 42%24=18 ; 24%18=6 ; 18%6=0 ; Therefore 6 is GCD of 42 and 24
     	   
